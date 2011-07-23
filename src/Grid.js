@@ -5,7 +5,7 @@ Grid = function(size) {
 	
 	this.values = null;
 	
-	this._initialize = function(){		
+	var _initialize = function(){		
 		var scrambledList = new Scrambler().scramble(gridSize*gridSize);
 		var count = 0;
 		that.values = new Array();
