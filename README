@@ -1,0 +1,9 @@
+This is a Javascript version of the popular game 15 in a row. 
+
+The Game
+A square grid of size N X N contains numbers from 1 to N-1. There is one blank space in the grid. Players can move any square adjacent to the grid to the blank space. Objective of the game is to arrange the squares in ascending order of numbers, starting row first and going down the grid. For example, a correct board would be 
+
+1  2  3  4
+5  6  7  8
+9  10 11 12
+13 14 15 
